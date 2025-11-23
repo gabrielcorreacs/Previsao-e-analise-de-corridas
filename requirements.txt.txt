@@ -1,0 +1,17 @@
+requirements.txt
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+xgboost
+joblib
+unicodedata2
+googlemaps
+spacy
+huggingface_hub
+transformers
+accelerate
+bitsandbytes
+torch
