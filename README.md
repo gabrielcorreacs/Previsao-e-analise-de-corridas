@@ -10,9 +10,8 @@ Geração de explicações concisas usando Gemma 3-4B-IT.
 
 Suporte para simulações offline sem dependência da API do Google Maps.
 
-Visualização de dados, análise de erros e importância das features.
 ------------------------------------------------------------------------------------------------------------------------------
-#Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 Python 3.10+
 
@@ -22,13 +21,13 @@ Matplotlib, Seaborn (visualização)
 
 SpaCy (processamento de linguagem natural)
 
-Transformers / Gemma 3-4B-IT (LLM para explicações)
+Gemma 3-4B-IT (LLM para explicações)
 
 Joblib (salvamento de modelos)
 
 Google Maps API (opcional, para cálculo de rotas)
 ------------------------------------------------------------------------------------------------------------------------------
-#Estrutura do Projeto
+Estrutura do Projeto
 
 /data: datasets originais e processados
 
@@ -113,10 +112,5 @@ Gera corridas aleatórias entre bairros de Fortaleza.
 
 Permite testar o modelo sem dependência do Google Maps.
 
-Explicações geradas pelo LLM se tiver api ou por texto padrão.
+Explicações geradas pelo LLM se tiver api huggingface ou texto padrão apenas mostrando lucro
 
-Contribuições
-
-Sugestões de melhoria para features, explicações LLM ou simulação de corridas são bem-vindas.
-
-O projeto é open-source, focado em aprendizado e pesquisa.
